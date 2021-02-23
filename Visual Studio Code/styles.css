@@ -6,6 +6,7 @@ body {
     background-color:rgb(52, 126, 201);
     display: grid;
     grid-template-rows: auto 1fr auto;
+    /* 1fr = rest of the available space after header and footer are on auto */
 }
 .logo {
     width: 100px;
