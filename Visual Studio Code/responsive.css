@@ -1,0 +1,36 @@
+@media screen and ( max-width: 768px ) {
+    .main-header {
+        grid-template-columns: 1fr 1fr;
+    }
+    .nav-button {
+        display: block;
+    }
+    .main-navigation {
+        justify-self: start;
+        flex-direction: column;
+        grid-column: span 2;
+    }
+    .banner {
+        min-height: 40vh;
+    }
+    .card {
+        grid-column: span 6;
+    }
+    .content {
+        margin: 10px;
+    }
+}
+@media screen and ( max-width: 450px ) {
+    .card {
+        grid-column: span 12;
+    }
+    .content {
+        margin: 5px;
+    }
+    .card img {
+        height: 300px;
+    }
+    .banner h1 {
+        font-size: 2em;
+    }
+}
