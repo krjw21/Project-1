@@ -1,8 +1,6 @@
-import logo from './logo.svg';
+import Logo from './igloo-solid.png'
 import './App.css';
-import {Text} from './components/Text.js';
-import {Button} from './components/Button.js';
-import {List} from './components/List.js';
+import {Header} from './components/Header.js'
 
 const NavItems = [
   {"name" : "Home" , "link" : "/home"},
@@ -15,6 +13,7 @@ const NavItems = [
 function App() {
   return (
     <div className="website">
+      <Header logo = {Logo}/>
       <header className="header"></header>
       <main className="content"></main>
       <footer className="footer"></footer>
