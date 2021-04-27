@@ -1,7 +1,7 @@
 // Text component
 export function Text(props) {
     return(
-        <p className="text">
+        <p className="text" style={{color: props.color}}>
             {props.name}
         </p>
     )
