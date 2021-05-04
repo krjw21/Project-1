@@ -3,7 +3,12 @@ import {Link} from 'react-router-dom'
 export function Header (props) {
     const Navigation = props.nav.map( (item) => {
         return (
-            <Link to={item.link} >{item.name}</Link>
+            <Link 
+                to={item.link} 
+                exact={ (item.link==="/") ? true : false }
+            >
+                {item.name}
+            </Link>
         )
     } )
     return (
