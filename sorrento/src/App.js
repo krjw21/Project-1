@@ -13,7 +13,7 @@ const NavItems = [
 function App() {
   return (
     <div className="website">
-      <Header logo = {Logo}/>
+      <Header logo = {Logo} nav={NavItems}/>
       <header className="header"></header>
       <main className="content"></main>
       <footer className="footer"></footer>
