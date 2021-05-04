@@ -1,4 +1,5 @@
 import {Link} from 'react-router-dom'
+import '../styles/Header.css'
 
 export function Header (props) {
     const Navigation = props.nav.map( (item) => {
