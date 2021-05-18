@@ -1,0 +1,12 @@
+.pricing {
+    max-width: 1024px;
+/* MARGIN SYNTAX
+margin: (top/bottom) (left/right);
+*/
+    margin: 1em auto;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
