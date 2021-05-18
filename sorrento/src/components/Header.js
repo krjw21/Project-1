@@ -1,20 +1,21 @@
-import {Link} from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import '../styles/Header.css'
 
-export function Header (props) {
-    const Navigation = props.nav.map( (item) => {
+export function Header(props) {
+    const Navigation = props.nav.map((item) => {
         return (
-            <Link 
-                to={item.link} 
-                exact={ (item.link==="/") ? true : false }
+            <NavLink
+                to={item.link}
+                activeClassName="active"
+                exact={(item.link === "/") ? true : false}
             >
                 {item.name}
-            </Link>
+            </NavLink>
         )
-    } )
+    })
     return (
-        <header className="header"> 
-            <img className="logo" src={props.logo}/>
+        <header className="header">
+            <img className="logo" src={props.logo} />
             <nav className="navigation">
                 {Navigation}
             </nav>

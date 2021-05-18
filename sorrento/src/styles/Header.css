@@ -17,7 +17,12 @@
     text-decoration: none;
     color: rgb(204, 204, 204);
 }
+/* Changes style when hovering over navigation button */
 .navigation a:hover {
     color: white;
     background-color: rgb(66, 26, 26);
+}
+/* Shows which navigation page is currently open */
+.navigation a.active {
+    font-weight:bold;
 }

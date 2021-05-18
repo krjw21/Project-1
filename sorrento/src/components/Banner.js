@@ -17,7 +17,8 @@ const TextStyle = {
     width: '100%',
     textAlign: 'center',
     top: '50%',
-    zIndex: 99
+    zIndex: 99,
+    color: 'blanchedalmond'
 }
 export function Banner(props) {
     return (

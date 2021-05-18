@@ -1,0 +1,37 @@
+.contact {
+    max-width: 1024px;
+/* MARGIN SYNTAX
+margin: (top/bottom) (left/right);
+*/
+    margin: 1em auto;
+}
+/* # is used for id, . is used for class
+there can only be one id
+id also has more priority over class */
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    /* background-color: lightgrey; */
+}
+#contact-form label {
+    font-weight: bold;
+    margin-top: 1em;
+}
+#contact-form input {
+    padding: 0.5em;
+    box-sizing: border-box;
+}
+#contact-form textarea {
+    padding: 0.5em;
+    box-sizing: border-box;
+}
+#contact-form button {
+    margin-top: 1em;
+    align-self: center;
+    width: 100px;
+    background-color: burlywood;
+    color: brown;
+    padding: 0.5em;
+    border: 1px solid black;
+    border-radius: 10px;
+}
