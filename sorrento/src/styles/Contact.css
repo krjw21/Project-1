@@ -8,6 +8,16 @@ margin: (top/bottom) (left/right);
 /* # is used for id, . is used for class
 there can only be one id
 id also has more priority over class */
+.contact-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.googlemap {
+    margin: 0px 20px 0px 20px;
+}
+.contact {
+    padding: 0px 30px 0px 30px;
+}
 #contact-form {
     display: flex;
     flex-direction: column;
@@ -34,4 +44,9 @@ id also has more priority over class */
     padding: 0.5em;
     border: 1px solid black;
     border-radius: 10px;
+}
+#col2 {
+    background-color: linen;
+    background-position: left bottom;
+    margin: 15px;
 }

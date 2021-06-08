@@ -1,5 +1,6 @@
 import Logo from './sorrento_by_the_sea_logo.jpg'
 import './App.css';
+import './styles/Social.css'
 import { Switch, Route } from 'react-router-dom'
 import { Home } from './components/Home.js'
 import { Apartment } from './components/Apartment.js'
@@ -9,6 +10,10 @@ import { Attractions } from './components/Attractions.js'
 import { Contact } from './components/Contact.js'
 import { NotFound } from './components/NotFound.js'
 import { Header } from './components/Header.js'
+import Social1 from './banners/facebook_small.png'
+import Social2 from './banners/instagram_small.png'
+import Social3 from './banners/twitter_small.png'
+import Social4 from './banners/youtube-variation_small.png'
 
 const NavItems = [
   { "name": "Home", "link": "/" },
@@ -22,7 +27,6 @@ function App() {
   return (
     <div className="website">
       <Header logo={Logo} nav={NavItems} />
-      <header className="header"></header>
       <main className="content">
         <Switch>
           <Route exact path="/">
@@ -51,7 +55,24 @@ function App() {
           </Route>
         </Switch>
       </main>
-      <footer className="footer"></footer>
+      <footer className="footer">
+      <div className="social">
+                    <a>© 2021 Sorrento Apartment Victoria</a>
+                    <a href="www.facebook.com/sorrentovictoria">
+                        <img src= { Social1 } width="30" height="30"
+                            alt="Sorrento Apartments on Facebook" /></a>
+                    <a href="www.instagram.com/sorrentovictoria">
+                        <img src= { Social2 } width="30" height="30"
+                            alt="Sorrento Apartments on Instagram" /></a>
+                    <a href="www.twitter.com/sorrentovictoria">
+                        <img src= { Social3 } width="30" height="30"
+                            alt="Sorrento Apartments on Youtube" /></a>
+                            <a href="www.youtube.com/sorrentovictoria">
+                        <img src= { Social4 } width="30" height="30"
+                            alt="Sorrento Apartments on Youtube" /></a>
+                    <a id="link" href="legals.html">Legals</a>
+                </div>
+      </footer>
     </div>
   );
 }

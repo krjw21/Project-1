@@ -1,5 +1,6 @@
 .header {
-    background-color: rgb(141, 57, 26);
+    background-color: rgb(104,37,36);
+    background-image: linear-gradient(to right, rgb(104,37,36), rgb(104,37,36), white);
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -15,7 +16,7 @@
     display: block;
     padding: 8px;
     text-decoration: none;
-    color: rgb(204, 204, 204);
+    color: black;
 }
 /* Changes style when hovering over navigation button */
 .navigation a:hover {
