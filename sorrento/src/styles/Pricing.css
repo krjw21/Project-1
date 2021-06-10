@@ -1,12 +1,14 @@
-.pricing {
-    max-width: 1024px;
+.pricingcontainer {
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
 /* MARGIN SYNTAX
 margin: (top/bottom) (left/right);
 */
-    margin: 1em auto;
+    margin: 0px 20px 0px 0px;
 }
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1em;
+.grid2 {
+    padding: 10px 40px 40px 0px;
+}
+ul li {
+    padding-bottom: 10px;
 }

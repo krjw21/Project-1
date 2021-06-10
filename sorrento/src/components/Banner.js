@@ -28,3 +28,29 @@ export function Banner(props) {
         </div>
     )
 }
+
+const BannerStyle1 = {
+    minHeight: '100%',
+    minWidth: '100%',
+}
+const BannerImage1 = {
+    width: '100%',
+    height: '100%',
+    objectFit: 'fill',
+}
+const TextStyle1 = {
+    position: 'absolute',
+    width: '100%',
+    textAlign: 'center',
+    top: '50%',
+    zIndex: 99,
+    color: 'blanchedalmond'
+}
+export function Banner1(props) {
+    return (
+        <div className="banner" style={BannerStyle1}>
+            <img src={props.image} className="banner-image" style={BannerImage1} />
+            <h2 className="banner-text" style={TextStyle1}>{props.text}</h2>
+        </div>
+    )
+}

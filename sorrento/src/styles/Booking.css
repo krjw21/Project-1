@@ -1,0 +1,75 @@
+.gridcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* Column 1 Stylesheet START */
+.inline {
+    width: 48%;
+    display: inline-block;
+    margin-left: 1%;
+    padding-left: 1px;
+}
+  
+#bookingform label {
+    display: block;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+#bookingform input {
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.5em;
+}
+#bookingform textarea {
+    height: 150px;
+}
+  
+.booking {
+    background-color: #dec7c4;
+    background-position: center;
+}
+
+#column1 {
+    margin: 40px 0 0 40px;
+}
+
+#bookingform {
+    padding: 10px 30px 20px 30px;
+}
+
+.booking button {
+    background-color: burlywood;
+    color: brown;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.submitbutton {
+    text-align: center;
+}
+  
+button:hover {
+    border: 2px solid black;
+}
+/* Column 1 Stylesheet END */
+
+.testimonial {
+    border-left: 1px solid grey;
+    margin: 20px 60px 0 60px;
+}
+.testimonial li, .testimonial h2 {
+    padding: 0 0 0 20px;
+}
+.testimonial li {
+    font-size: 1.1em;
+    padding-bottom: 50px;
+}
+.testimonial ul {
+    list-style-position: outside;
+}

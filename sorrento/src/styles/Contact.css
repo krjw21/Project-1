@@ -10,13 +10,22 @@ there can only be one id
 id also has more priority over class */
 .contact-page {
     display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    padding: 0px 0px 0px 40px;
+}
+.contactdetails {
+    display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 0px 0px 0px 70px;
+}
+p {
+    line-height: 1.8;
 }
 .googlemap {
-    margin: 0px 20px 0px 20px;
+    margin: 0px 0px 0px 20px;
 }
 .contact {
-    padding: 0px 30px 0px 30px;
+    padding: 0px 40px 0px 40px;
 }
 #contact-form {
     display: flex;
@@ -26,6 +35,7 @@ id also has more priority over class */
 #contact-form label {
     font-weight: bold;
     margin-top: 1em;
+    padding-bottom: 5px;
 }
 #contact-form input {
     padding: 0.5em;
@@ -45,8 +55,19 @@ id also has more priority over class */
     border: 1px solid black;
     border-radius: 10px;
 }
+#contact-form button:hover {
+    border: 2px solid black;
+}
 #col2 {
-    background-color: linen;
+    background-color: #dec7c4;
     background-position: left bottom;
-    margin: 15px;
+    margin: 25px 70px 0px 80px;
+}
+
+.contactdetails p {
+    border-left: 1px solid grey;
+    padding: 0 0 0 20px;
+}
+.seasons a {
+    text-decoration: none;
 }

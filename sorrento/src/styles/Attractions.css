@@ -1,0 +1,8 @@
+.gridcontainer {
+    display: grid;
+    grid-template-columns: 0.7fr 1.3fr;
+}
+
+.attractions {
+    padding: 0 30px 0 30px;
+}

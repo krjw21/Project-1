@@ -11,6 +11,7 @@
     justify-self: end;
     align-self: end;
     display: flex;
+    padding: 0px 30px 0px 0px;
 }
 .navigation a {
     display: block;
