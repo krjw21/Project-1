@@ -8,7 +8,7 @@ export function Contact(props) {
                     <p><strong>Main Office</strong><br />
                         42 Holyrood Avenue<br />
                         Sorrento, VIC 3943</p>
-                    <p className="directcontact"><strong>Direct Contact</strong><br />
+                    <p><strong>Direct Contact</strong><br />
                     Phone: 0435-123-456<br />
                     Email: info@sorrentovic.com.au
                     </p>
