@@ -1,25 +1,32 @@
 {
   "files": {
-    "main.css": "/Project-1/static/css/main.8fb6e7d4.chunk.css",
-    "main.js": "/Project-1/static/js/main.9091ef49.chunk.js",
-    "main.js.map": "/Project-1/static/js/main.9091ef49.chunk.js.map",
-    "runtime-main.js": "/Project-1/static/js/runtime-main.89758eff.js",
-    "runtime-main.js.map": "/Project-1/static/js/runtime-main.89758eff.js.map",
-    "static/js/2.65ab3e09.chunk.js": "/Project-1/static/js/2.65ab3e09.chunk.js",
-    "static/js/2.65ab3e09.chunk.js.map": "/Project-1/static/js/2.65ab3e09.chunk.js.map",
-    "static/js/3.9e6ed69a.chunk.js": "/Project-1/static/js/3.9e6ed69a.chunk.js",
-    "static/js/3.9e6ed69a.chunk.js.map": "/Project-1/static/js/3.9e6ed69a.chunk.js.map",
+    "main.css": "/Project-1/static/css/main.720f5071.chunk.css",
+    "main.js": "/Project-1/static/js/main.b60be111.chunk.js",
+    "main.js.map": "/Project-1/static/js/main.b60be111.chunk.js.map",
+    "runtime-main.js": "/Project-1/static/js/runtime-main.43fadd33.js",
+    "runtime-main.js.map": "/Project-1/static/js/runtime-main.43fadd33.js.map",
+    "static/js/2.d54a7e60.chunk.js": "/Project-1/static/js/2.d54a7e60.chunk.js",
+    "static/js/2.d54a7e60.chunk.js.map": "/Project-1/static/js/2.d54a7e60.chunk.js.map",
+    "static/js/3.8e41cc69.chunk.js": "/Project-1/static/js/3.8e41cc69.chunk.js",
+    "static/js/3.8e41cc69.chunk.js.map": "/Project-1/static/js/3.8e41cc69.chunk.js.map",
     "index.html": "/Project-1/index.html",
-    "static/css/main.8fb6e7d4.chunk.css.map": "/Project-1/static/css/main.8fb6e7d4.chunk.css.map",
-    "static/js/2.65ab3e09.chunk.js.LICENSE.txt": "/Project-1/static/js/2.65ab3e09.chunk.js.LICENSE.txt",
-    "static/media/ihor-malytskyi-zsih75d54k0-unsplash.ab6b7cb8.jpg": "/Project-1/static/media/ihor-malytskyi-zsih75d54k0-unsplash.ab6b7cb8.jpg",
-    "static/media/neonbrand-sEwtU-qy06c-unsplash.375a9b40.jpg": "/Project-1/static/media/neonbrand-sEwtU-qy06c-unsplash.375a9b40.jpg",
-    "static/media/sorrento_by_the_sea_logo.da3aa440.jpg": "/Project-1/static/media/sorrento_by_the_sea_logo.da3aa440.jpg"
+    "static/css/main.720f5071.chunk.css.map": "/Project-1/static/css/main.720f5071.chunk.css.map",
+    "static/js/2.d54a7e60.chunk.js.LICENSE.txt": "/Project-1/static/js/2.d54a7e60.chunk.js.LICENSE.txt",
+    "static/media/Apartmentleft.0e0705e3.jpg": "/Project-1/static/media/Apartmentleft.0e0705e3.jpg",
+    "static/media/Apartmentright.f2b07ddc.jpg": "/Project-1/static/media/Apartmentright.f2b07ddc.jpg",
+    "static/media/attractionsimage.8e98032f.jpg": "/Project-1/static/media/attractionsimage.8e98032f.jpg",
+    "static/media/facebook_small.5e203d01.png": "/Project-1/static/media/facebook_small.5e203d01.png",
+    "static/media/instagram_small.dd70e708.png": "/Project-1/static/media/instagram_small.dd70e708.png",
+    "static/media/pricingimage.1e45a8b5.jpg": "/Project-1/static/media/pricingimage.1e45a8b5.jpg",
+    "static/media/sorrento_by_the_sea_logo.da3aa440.jpg": "/Project-1/static/media/sorrento_by_the_sea_logo.da3aa440.jpg",
+    "static/media/sorrentomap.22039689.png": "/Project-1/static/media/sorrentomap.22039689.png",
+    "static/media/twitter_small.02ae4d28.png": "/Project-1/static/media/twitter_small.02ae4d28.png",
+    "static/media/youtube-variation_small.df4bc810.png": "/Project-1/static/media/youtube-variation_small.df4bc810.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.89758eff.js",
-    "static/js/2.65ab3e09.chunk.js",
-    "static/css/main.8fb6e7d4.chunk.css",
-    "static/js/main.9091ef49.chunk.js"
+    "static/js/runtime-main.43fadd33.js",
+    "static/js/2.d54a7e60.chunk.js",
+    "static/css/main.720f5071.chunk.css",
+    "static/js/main.b60be111.chunk.js"
   ]
 }
