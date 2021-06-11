@@ -12,3 +12,12 @@ margin: (top/bottom) (left/right);
 ul li {
     padding-bottom: 10px;
 }
+.pricingbottom {
+    padding-bottom: 10px;
+}
+.contactlink a:hover {
+    color: #87423c;
+}
+.contactlink a:active {
+    color: navy;
+}

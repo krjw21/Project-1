@@ -9,7 +9,7 @@ export function Attractions(props) {
             <Banner1 image={BannerImage1} />
             </div>
             <div className="attractions">
-                <h2>Attractions</h2>
+                <h2>Attractions In The Area</h2>
                 <div className="content">
                     <li><b>Wineries & Restaurants</b></li>
                     <p>There are more than 55 wineries to choose from - offering cellar door sales, restaurants, cafes and tours. Along the way discover a foodie’s paradise.<br/> Meet the growers, producers, providers and chefs. Experience the fun of picking your own produce or buying dinner ingredients at the farm gate. Dine with views of the sea, lakes and vineyards.</p>

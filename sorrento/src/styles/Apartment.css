@@ -1,4 +1,32 @@
-.apartment {
-    max-width: 1024px;
-    margin: 1em auto;
+.apartmentcontainer {
+    display: grid;
+    grid-template-columns: 0.9fr 1.2fr 0.9fr;
+}
+.apartmentcontent h2 {
+    padding: 0 20px 0 20px;
+    text-align: center;
+}
+.apartmentcontent p{
+    padding: 0 20px 0 20px;
+    text-align: center;
+    line-height: 30px;
+}
+.apartmentheader {
+    margin-bottom: 40px;
+}
+.apartmentcontent li {
+    padding-bottom: 20px;
+}
+.apartmentcontent ul {
+    padding-bottom: 20px;
+}
+.contactlink {
+    font-weight: bold;
+    text-align: center;
+}
+.bookinglink a:hover {
+    color:#87423c;
+}
+.bookinglink a:active {
+    color: navy;
 }

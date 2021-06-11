@@ -22,7 +22,7 @@ export function Pricing(props) {
                         <p>Early Summer Period:<br />
                         From the 1st of September - 18th of December</p>
                         <p>Late Summer Period:<br />
-                        From the 1st of February - 31st of May:</p>
+                        From the 1st of February - 31st of May</p>
                         <ul>
                             <li>$220.00 per night</li>
                             <li>$1,250.00 per week</li>
@@ -36,8 +36,12 @@ export function Pricing(props) {
                     <li>A 50% refund will be given if cancellation date is within 30 days of the booking date.</li>
                     <p>In the event of a weekly or monthly booking the apartment will be serviced weekly unless by prior arrangement.</p>
                     <i>Pets are allowed upon approval!</i><br /><br />
-                    <p>SPOTS ARE LIMITED!</p>
-                    <a href="booking"><b>BOOK NOW!</b></a>
+                    <div className="pricingbottom">
+                        <p>SPOTS ARE LIMITED.</p>
+                    </div>
+                    <div className="bookinglink">
+                        <a href="booking"><b>BOOK NOW!</b></a>
+                    </div>
                 </div>
             </div>
         </div>

@@ -18,7 +18,7 @@ id also has more priority over class */
     grid-template-columns: 1fr 1fr;
     padding: 0px 0px 0px 70px;
 }
-p {
+.contactdetails p {
     line-height: 1.8;
 }
 .googlemap {
@@ -67,7 +67,4 @@ p {
 .contactdetails p {
     border-left: 1px solid grey;
     padding: 0 0 0 20px;
-}
-.seasons a {
-    text-decoration: none;
 }
